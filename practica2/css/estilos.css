@@ -1,0 +1,98 @@
+body {
+    background-color: #d1d2d7;
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 {
+    font-size: 1em;
+}
+img {
+    width: 50%;
+}
+/*Cabecera*/
+.cabecera {
+    background-color: #191970;
+    height: 100px;
+    text-align: center;
+    padding: 20px 10px 0px 15px;
+}
+
+.cabecera img {
+    width: 4%;
+    float: left;
+}
+
+.titulo {
+    font-size: 1.2em;
+    color: floralwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cabecera nav {
+    float: right;
+}
+
+.cabecera nav ul {
+    list-style: none;
+}
+
+.cabecera nav ul li{
+    display: inline-block;    
+} 
+
+.cabecera nav ul li a{
+    color: ghostwhite;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 5px;
+}
+
+.cabecera nav ul li a:hover {
+    font-size: 1.2em;
+}
+
+/*Central*/
+
+.izquierda {
+    width: 30%;
+    float: left;
+}
+
+.derecha{
+    width: 70%;
+    float: right;
+}
+
+/*Inferior*/
+.bloques {
+    clear: both;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+
+}
+.bloqueUno {
+    background-color: greenyellow;
+ }
+
+ .bloqueDos {
+    background-color: red;
+}
+
+.bloqueTres {
+    background-color: pink;
+ }
+/*Footer*/
+footer {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 1.4em;
+}
